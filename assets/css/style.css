@@ -6,6 +6,7 @@
 body{
     font-family: 'Monteserrat', Arial, Helvetica;
     font-size: 13px;
+    overflow-x: hidden;
 }
 header{
     background-color: #000;
@@ -83,12 +84,15 @@ header{
     justify-content: center;
     align-items: center;
     height: 100%;
-    text-transform: uppercase;
-    font-size: 40px;
     color: #fff;
 }
+.banner h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
-.banner span{
+.banner h1 span{
     color: #b28756;
 }
 
@@ -108,3 +112,73 @@ header{
     margin-top: 30px;
     border-radius: 20px
 }
+
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .pointer{
+    width: 16px;
+    height: 16px;
+    margin: 0px 3px 0px 3px;
+    border-radius: 8px;
+    border: 2px solid #b28756;
+    cursor: pointer;
+}
+
+.banner .pointer.active{
+    background-color: #b28756;
+}
+
+.default{
+    background-color: red;
+    padding: 50px 0px 50px 0px;
+}
+
+.default .section-title,
+.section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title{
+    font-size: 20px;
+}
+
+.default .section-desc{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    color: #ccc;
+}
+
+.default .section-body{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.default.light{
+    background-color: #fff;
+}
+
+.default.light .section-title,
+.default.light .section-body{
+    color: #000;
+}
+
+.default.dark{
+    background-color: #000;
+}
+
+.default.dark .section-title,
+.default.dark .section-body{
+    color: #fff;
+}
+
