@@ -127,7 +127,6 @@ header{
     background-color: #b28756;
 }
 .default{
-    background-color: red;
     padding: 50px 0px 50px 0px;
 }
 .default .section-title,
@@ -169,12 +168,11 @@ header{
 
 
 
+/*CSS DE ÁREAS ESPECÍFICAS*/
 
 
+/*PARTE DAO ABOUT-US*/
 
-/*
-    CSS DE ÁREAS ESPECÍFICAS
-*/
 .section-aboutus{
     display: flex;
 }
@@ -197,6 +195,8 @@ header{
 
 
 
+
+/*PARTE DAOS SERVICES*/
 
 .section-services {
     display: flex;
@@ -223,6 +223,9 @@ header{
 
 
 
+
+
+/*PARTE DOS PROJECTS*/
 
 .section-projects{
     display: flex;
@@ -299,6 +302,9 @@ header{
 
 
 
+
+/*PARTE DO TEAM*/
+
 .bg-team{
     background-image: url('../images/bg.jpg');
     background-size: cover;
@@ -309,9 +315,6 @@ header{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 50px 0px;
 }
-
-
-
 .section-team {
     overflow: hidden;
     max-width: 880px;
@@ -396,81 +399,60 @@ header{
 
 
 
+/*PARTE DOS CLIENTS*/
 
-
-
-.client-area {
-    overflow: hidden;
-    max-width: 660px;
+.sec-client{
+    width:680px;
+    height: 300px;
     margin: auto;
+    overflow: hidden;
 }
-.client-area .sliders{
-    width: 1000vw;
-    height: 100%;
+.area-sliderss{
+    display: flex;
+    width: 8800px;
+    height: 300px;
 }
-.client-area .slide{
-    width: 660px;
-    min-height:300px;
-    height: 100%;
-    display: inline-block;
-    margin-right: 20px;
-}
-.client-area .slidearea{
-    width: 660px;
+.sliderss{
+    width: 680px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 300px;
     color: #000;
     padding: 30px;
-}
-
-
-
-
-.slidearea .section-team--name{
-    text-transform: capitalize;
-    font-weight: 800;
-}
-.slidearea .section-team--role{
-    color: #000;
-    font-weight: 600;
+    text-align: center;
 }
 .section-clients--symbol{
     width: 20px;
+    padding: 15px 0px 10px 0px;
+}
+.section-clients--avatar{
+    width: 120px;
+    height: auto;
+}
+.section-clients--name{
+    text-transform:capitalize;
+    font-weight: 800;
+    font-size: 17px;
     padding-top: 20px;
-    padding-bottom: 10px;
+}
+.section-clients--role{
+    font-size: 15px;
+    margin-top: 5px;
 }
 .section-clients--desc{
-    text-align:center;
     color: #999;
+    line-height: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.client-area .sliders-pointers{
+.c-p .sliders-pointers{
     margin-top: 30px;
     height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.client-area .pointer{
+.c-p .pointer{
     width: 13px;
     height: 13px;
     margin: 0px 3px 0px 3px;
@@ -478,6 +460,6 @@ header{
     border: 2px solid #b28756;
     cursor: pointer;
 }
-.client-area .pointer.active{
+.c-p .pointer.active{
     background-color: #b28756;
-}
+} 
