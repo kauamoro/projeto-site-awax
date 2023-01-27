@@ -373,10 +373,12 @@ header{
     font-size: 13px;
     margin-top: 5px;
     color: #999;
+    padding-bottom: 25px ;
 }
 .section-team--social{
     display: flex;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
 .section-team--social a{
     display: inline-flex;
@@ -442,7 +444,7 @@ header{
     margin-top: 5px;
 }
 .section-clients--desc{
-    color: #999;
+    color: #777;
     line-height: 22px;
 }
 .c-p .sliders-pointers{
@@ -452,6 +454,7 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 .c-p .pointer{
     width: 13px;
     height: 13px;
@@ -463,3 +466,106 @@ header{
 .c-p .pointer.active{
     background-color: #b28756;
 } 
+
+
+
+
+
+/*PARTE DAS MARCAS*/
+
+.c-p{
+    background-color: #eee;
+}
+
+.section-marcas{
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.marcas img{
+    padding: 0px 30px 0px 30px;
+}
+
+
+
+
+
+/*PARTE DOS PRICES*/
+
+.cinza{
+    background-color: #eee;
+}
+.cinza .section-desc{
+    color: #777;
+}
+.price{
+    display: flex;
+    padding: 20px;
+    background-color: #eee
+}
+.price-table{
+    margin-left: 30px;
+    flex:1;
+    height: 370px;
+    padding: 0px 50px 0px 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-table:first-child{
+    margin-left: 0px;
+}
+.price-table h2{
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.price-table h1{
+    font-weight: 800;
+    font-size: 30px;
+}
+.price-table h3{
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 12px;
+}
+.price-table .options{
+    padding: 8px 0px 8px 0px;
+    color: #666;
+    font-size: 12px;
+}
+.price-table .traco{
+    width: 10px;
+    height: 1px;
+    background-color: #777;
+}
+.price-table a{
+    margin-top: 25px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 35px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.price-table a:hover{
+    background-color: #b28756;
+}
+
+
+
+
+
+
+
+
+
