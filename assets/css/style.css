@@ -565,7 +565,16 @@ header{
 
 
 
+/*PARTE PREMIUM*/
 
+.premium .section-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.premium.party-info{
+
+}
 
 
 
