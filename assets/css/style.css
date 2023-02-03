@@ -676,3 +676,62 @@ header{
 .some-facts .section-service:first-child{
     border-left:none;
 }
+
+
+
+
+
+/*PARTE REDES SOCIAL*/
+
+.social-redes{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-social{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.section-social a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height:30px;
+    background-color: #bbb;
+    border-radius: 30px;
+}
+.social .social-titulo{
+    font-size: 12px;
+    padding-right: 45px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.social p{
+    margin-right: 35px;
+    margin-left: 10px;
+    font-size: 10px;
+    color: #bbb;
+    font-weight: 700;
+}
+.social .img1{
+    background-color: rgb(0, 166, 255);
+}
+.social .img2{
+    background-color: rgb(61, 90, 253);
+}
+.social .img3{
+    background-color: rgb(43, 43, 209);
+}
+.social .img4{
+    background-color: rgb(233, 82, 0);
+}
+.social .img5{
+    background-color: rgb(201, 0, 0);
+}
